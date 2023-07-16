@@ -6,3 +6,53 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans',sans-serif;
 }
+/* heder styles */
+/* eiikhane header a background color bosanu hoise (background tag use kore)er por sei
+background koto tuku jaiga nibe oiitar jonno (padding )use kora hoise prothom 50px hosse 
+opre r nicer maf tar por 240px hossse dane r bamer maf */
+header{
+    background: rgba(255,144,14,0.10);
+    padding: 50px 240px;
+} 
+/* eii khane (nav) hosse god father take bola hoise tumi (display:flex) kore bacca alada koro
+er por tader moddho faka kore dau oii jonno ( justify-content:space-between;)babohar koro */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight:700;
+    color: #131313;
+}
+nav > ul {
+    display: flex;
+}
+nav li{
+    list-style:none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner style */
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+}
